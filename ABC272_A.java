@@ -11,6 +11,7 @@ public class ABC272_A {
         for(int i = 0; i < a; i++){
             sum += sc1.nextInt();
         } 
+        sc1.close();
         System.out.println(a);
         System.out.println(sum);
     }
