@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ABC272_A {
+public class Main {
     public static void main(String[] args) {
         
         System.out.println("入力してください。");
