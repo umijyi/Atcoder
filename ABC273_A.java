@@ -11,6 +11,7 @@ public class Main {
         }
         System.out.println(a);
     }
+    
     public static int f(int num1, int num2){
         num1 *= num2;
         return num1;

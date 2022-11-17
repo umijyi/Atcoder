@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             sc.close();
-            String m = Integer.toHexString(n);
-            System.out.println(m);
+            if (n / 16 != 0){
+
+            }
+            System.out.println(n);
     }
 }
