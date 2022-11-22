@@ -16,7 +16,7 @@ public class Main {
             }
         }
         for (int i = 0; i < count; i++) {
-            System.out.println("0 ");
+            System.out.print("0 ");
         }
         System.out.println();
         sc.close();

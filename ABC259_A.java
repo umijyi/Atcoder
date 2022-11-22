@@ -5,14 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int k;
-        int x;
-        for (int i = 0; i < m; i++) {
-            k = sc.nextInt();
-            for (int j = 0; j < k; j++) {
-                x = sc.nextInt();
-            }
-        }
+        int x = sc.nextInt();
+        int t = sc.nextInt();
+        int d = sc.nextInt();
+        int height = 0;
+        if (T )
         sc.close();
-    }
+    } 
 }
