@@ -8,11 +8,14 @@ public class Main {
         BigInteger a = new BigInteger("1");
         BigInteger b = new BigInteger("1");
         for (int i = 0; i < 3; i++){
-            a.multiply(sc.nextBigInteger());
+            a = a.multiply(sc.nextBigInteger());
         }
         for (int i = 0; i < 3; i++){
-            b.multiply(sc.nextBigInteger());
+            b = b.multiply(sc.nextBigInteger());
         }
-        System.out.pri
+        System.out.println(a);
+        System.out.println(b);
+        System.out.print(a.subtract(b).remainder(new BigInteger("998244353")));
+        sc.close();
     }    
 }

@@ -5,12 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int k;
-        int x;
+        
+        
         for (int i = 0; i < m; i++) {
-            k = sc.nextInt();
-            for (int j = 0; j < k; j++) {
-                x = sc.nextInt();
+            int k = sc.nextInt();
+            int[] x = new int[k];
+            for (int j = 0; j < n; j++) {
+                x[j] = sc.nextInt();
             }
         }
         sc.close();
