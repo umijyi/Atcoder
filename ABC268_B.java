@@ -6,7 +6,7 @@ public class Main {
         String s = sc.nextLine();
         String t = sc.nextLine();
         boolean flag = true;
-        if (s.length() < t.length()) {
+        if (s.length() <= t.length()) {
             for (int i = 0; i< s.length(); i++) {
                 if (t.charAt(i) != s.charAt(i)) {
                     flag = false;
