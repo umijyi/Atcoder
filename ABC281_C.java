@@ -8,13 +8,12 @@ public class Main {
         boolean flag = false;
         long[] a = new long[n];
         for (int i = 0; i < n; i++) {
-            a[i]  = sc.nextInt();
+            a[i]  = sc.nextLong();
         }
         while(t > 0) {
             for (int i = 0; i < n; i++) {
                 if (t < a[i]) {
-                    System.out.print(i + 1);
-                    System.out.print(" " + t);
+                    System.out.println(i + 1 + " " + t);
                     flag = true;
                     break;
                 }
